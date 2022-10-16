@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+.container div{
+    width: 20%;
+    height: 100vh;
+}
+
+.submit{
+    position: absolute;
+    right: 45%;
+    padding: 1em;
+    top: 5px;
+    cursor: pointer;
+    background-color: rgb(122, 43, 43);
+    color: white;
+    width: 10%;
+    border: 0;
+    font-weight: bold;
+}
+.submit:hover{
+    border: 1px solid black;
+}
+
+.container div p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 50px;
+}
